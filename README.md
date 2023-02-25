@@ -1,2 +1,3 @@
-# work-ui-dashboard-template200223
-Este proyecto contiene una plantilla HTML/CSS de un dashboard.
+# Work UI Dashboard Template
+![Imagen del proyecto](screenshot-ui-dashboard.png)
+<img src="tech-tag.png" width="60%">

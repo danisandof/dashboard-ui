@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+  height: 100%; 
+  background: rgb(61,73,85);
+  background: linear-gradient(180deg, rgba(61,73,85,1) 0%, rgba(42,46,57,1) 100%);
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 18% 60% 22%;
+}
+.container .left-bar {
+  padding: 20px;
+}
+.container .left-bar .contact-list {
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+  gap: 10px;
+  height: 100%;
+  border-radius: 35px;
+  text-align: center;
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.container .left-bar .contact-list h3 {
+  padding-top: 15px;
+}
+.container .left-bar .contact-list ul li {
+  list-style: none;
+  padding: 10px;
+  color: #fff;
+}
+.container .left-bar .contact-list button {
+  width: auto;
+  height: 45px;
+  margin: 0 25px;
+  font-family: 'Kanit', sans-serif;  
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: #fff;
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+}
+.container .left-bar .contact-list button:hover {
+  background: rgb(74,11,182);
+  background: linear-gradient(327deg, rgba(74,11,182,1) 0%, rgba(205,190,255,1) 50%, rgba(133,209,255,1) 100%);
+  color: #000;
+}
+.container .main .panel {
+  padding: 20px;
+}
+.container .main .panel .metrics {
+  width: auto;
+  margin: 20px 0;
+}
+.container .main .panel .metrics_display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1%;
+}
+.metric_percentage_display {
+  border-radius: 10px;
+}
+.metric_percentage_display h1 {
+  font-size: 40px;
+}
+.metric_percentage_display:nth-child(1) {
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.metric_percentage_display:nth-child(2) {
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.metric_percentage_display:nth-child(3) {
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.metric_percentage_display:nth-child(4) {
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+  padding: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.metric_percentage_display:nth-child(1):hover {
+  background: rgb(74,11,182);
+  background: linear-gradient(327deg, rgba(74,11,182,1) 0%, rgba(205,190,255,1) 50%, rgba(133,209,255,1) 100%); 
+  color: #000;
+}
+.metric_percentage_display:nth-child(2):hover {
+  background: rgb(74,11,182);
+  background: linear-gradient(327deg, rgba(74,11,182,1) 0%, rgba(205,190,255,1) 50%, rgba(133,209,255,1) 100%); 
+  color: #000;
+}
+.metric_percentage_display:nth-child(3):hover {
+  background: rgb(74,11,182);
+  background: linear-gradient(327deg, rgba(74,11,182,1) 0%, rgba(205,190,255,1) 50%, rgba(133,209,255,1) 100%); 
+  color: #000;
+}
+.metric_percentage_display:nth-child(4):hover {
+  background: rgb(74,11,182);
+  background: linear-gradient(327deg, rgba(74,11,182,1) 0%, rgba(205,190,255,1) 50%, rgba(133,209,255,1) 100%); 
+  color: #000;
+}
+.panel .table-info {
+  height: 100%;
+}
+.panel .table-info > table {
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.panel .table-info > table thead th{
+  padding: 20px;
+  background: rgb(61,73,85);
+  background: linear-gradient(180deg, rgba(61,73,85,1) 0%, rgba(42,46,57,1) 100%); 
+}
+.panel .table-info > table tbody tr td{
+  padding: 20px;
+  background: rgb(76,89,106);
+  background: linear-gradient(180deg, rgba(76,89,106,1) 0%, rgba(65,78,94,1) 100%); 
+}
+.container .right-bar .right-menu {
+  display: grid;
+  grid-template-rows: 10% 70% 20%;
+  height: 100%;
+  text-align: center;
+  background: #181d23;
+}
+.container .right-bar .right-menu .logo span {
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+}
+.container .right-bar .right-menu .logo img {
+  height: 48px;
+  width: 48px;
+  float: left;
+  clear: none;
+}
+.container .right-bar .right-menu .logo p {
+  line-height: 48px;
+}
+.container .right-bar .right-menu ul li {
+  list-style: none;
+  padding: 10px;
+}
+.container .right-bar .right-menu .avatar span {
+  height: auto;
+  width: 200px;
+  display: inline-block;
+}
+.container .right-bar .right-menu .avatar p {
+  line-height: 48px;
+  float: left;
+  clear: none;
+}
+.container .right-bar .right-menu .avatar img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
